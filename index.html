@@ -133,7 +133,7 @@ function toggleVideo(obj, todo) {
 	url = obj.href;
 	if(todo == "show") { 
 		url = url.replace("watch?v=", "embed/");
-		obj.parentElement.parentElement.parentElement.children[2].children[0].children[1].innerHTML = '<iframe width="560" height="315" src="' + url +'" frameborder="0" allowfullscreen></iframe>';
+		obj.parentElement.parentElement.parentElement.children[2].children[0].children[1].innerHTML = '<iframe width="560" height="315" src="' + url +'" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 		obj.setAttribute("onclick", "obj = this;toggleVideo(obj, 'hide')");
 	 }
 	if(todo == "hide") { 
