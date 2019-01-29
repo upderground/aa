@@ -168,16 +168,16 @@ function showToggler() {
 <body>
 	<div class="meeting">
 		<select id="list" onclick="if(this.selectedIndex != 0) { elem = this.selectedIndex + 1; document.getElementsByClassName('meeting')[elem].setAttribute('id','view' + elem);window.location.hash = '#view' + elem }">
-			<option class="read">23 сентября 2012</option>
-			<option class="read">30 сентября 2012</option>
-			<option class="read">7 октября 2012</option>
-			<option class="read">21 октября 2012</option>
-			<option class="read">4 ноября 2012</option>
+			<option>23 сентября 2012</option>
+			<option>30 сентября 2012</option>
+			<option>7 октября 2012</option>
+			<option>21 октября 2012</option>
+			<option>4 ноября 2012</option>
 			<option>18 ноября 2012</option>
-			<option class="read">2 декабря 2012</option>
-			<option class="read">9 декабря 2012</option>
-			<option class="read">18 декабря 2012</option>
-			<option class="read">30 декабря 2012</option>
+			<option>2 декабря 2012</option>
+			<option>9 декабря 2012</option>
+			<option>18 декабря 2012</option>
+			<option>30 декабря 2012</option>
 			<option>13 января 2013 / Любовь в мегаполисе</option>
 			<option>27 января 2013 / Отношения в мегаполисе</option>
 			<option>9 февраля 2013 / Возраст</option>
@@ -185,7 +185,7 @@ function showToggler() {
 			<option>10 марта 2013 / Любовь в мегаполисе</option>
 			<option>24 марта 2013, ч. 1 / Любовь в мегаполисе</option>
 			<option>24 марта 2013, ч. 2 / Любовь в мегаполисе</option>
-			<option class="read">7 апреля 2013 / Жертва и жертвоприношение</option>
+			<option>7 апреля 2013 / Жертва и жертвоприношение</option>
 			<option>21 апреля 2013 / Жертва</option>
 			<option>5 мая 2013 / Вампиры, оборотни и зомби</option>
 			<option>19 мая 2013 / Политика в мегаполисе</option>
@@ -201,11 +201,11 @@ function showToggler() {
 			<option>9 сентября 2013, ч. 2 / Как быть соразмерным социуму</option>
 			<option>9 сентября 2013, ч. 3 / Как быть соразмерным социуму</option>
 			<option>22 сентября 2013 / Миссия как помощь в самореализации</option>
-			<option class="read">27 сентября 2013 / Представление проекта</option>
+			<option>27 сентября 2013 / Представление проекта</option>
 			<option>24 ноября 2013 / Последнее собрание семинара</option>
 		</select>
-		<p><span class="read"><script>whats_read = document.getElementsByClassName("read");document.write(whats_read.length-1)</script></span>/35</p>
-	</div>
+		<!-- <p><span class="read"><script>whats_read = document.getElementsByClassName("read");document.write(whats_read.length-1)</script></span>/35</p>
+	--> </div>
 	<div class="meeting">
 		<h1>Вторая встреча (23 сентября 2012)</h1>
 		<h2>Мегаполис и виртуальный тип мышления</h2>
@@ -294,8 +294,8 @@ function showToggler() {
 		<h2></h2>
 		<ul>
 			<li class="none">Видео нет</li>
-			<li>Описание кейса и отчет: https://www.facebook.com/groups/actualantropology/permalink/282792195157545/</li>
-			<li>Дополнение к отчету: https://www.facebook.com/groups/actualantropology/permalink/283472135089551/</li>
+			<li>Описание кейса и отчет: <a href="https://www.facebook.com/groups/actualantropology/permalink/282792195157545/">читать на Facebook</a></li>
+			<li>Дополнение к отчету: <a href="https://www.facebook.com/groups/actualantropology/permalink/283472135089551/">читать на Facebook</a></li>
 		</ul>
 		<p class="preview"></p>
 		<div class="report"></div>
@@ -305,7 +305,7 @@ function showToggler() {
 		<h2></h2>
 		<ul>
 			<li class="none">Видео нет</li>
-			<li>Отчет: https://www.facebook.com/groups/actualantropology/permalink/286463794790385/</li>
+			<li>Отчет: <a href="https://www.facebook.com/groups/actualantropology/permalink/286463794790385/">Читать на Facebook</a></li>
 		</ul>
 		<p class="preview"></p>
 		<div class="report"></div>
@@ -315,9 +315,9 @@ function showToggler() {
 		<h2>Везде ли одинаково одиночество</h2>
 		<ul>
 			<li class="none">Видео нет</li>
-			<li>Отчет С. Котельникова: https://www.facebook.com/groups/actualantropology/permalink/287993174637447/</li>
-			<li>Отчет О. Лобач, ч. 1: https://www.facebook.com/groups/actualantropology/permalink/290836301019801/</li>
-			<li>Отчет О. Лобач, с. 2: https://www.facebook.com/groups/actualantropology/permalink/290975037672594/</li>
+			<li>Отчет С. Котельникова: <a href="https://www.facebook.com/groups/actualantropology/permalink/287993174637447/">читать на Facebook</a></li>
+			<li>Отчет О. Лобач, ч. 1: <a href="https://www.facebook.com/groups/actualantropology/permalink/290836301019801/">Читать на Facebook</a></li>
+			<li>Отчет О. Лобач, с. 2: <a href="https://www.facebook.com/groups/actualantropology/permalink/290975037672594/">Читать на Facebook</a></li>
 		</ul>
 		<p class="preview">Одиночество в деревне, городе и мегаполисе</p>
 		<div class="report"></div>
